@@ -1,0 +1,58 @@
+1armor
+2axe
+3blood stone 
+4bow
+5cleaver ( butcher)  
+6crown
+7anvil of fury
+8red potion
+9book 
+10blue potion 
+11dark blue potion
+12dark yellow potion 
+13orange potion
+14white potion 
+15yellow potion 
+16dark red potion
+17black potion
+18large bow
+19brain
+20ear
+21eye
+22lazarus staff
+23mushroom
+24food
+25gold 
+26helm
+27sign
+28low armor
+29mace
+30rock
+31ring
+32scroll
+33shield
+
+
+34staff
+35sword
+36wand
+37small shield
+
+1920 , 6144
+
+20, 32(+1)
+96, 192
+
+
+
+
+Inventory Item
+갑옷
+2칸 (1칸 = 28)
+ x = 56, y = 84
+
+Items.bmp
+336, 430
+
+
+
