@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>03.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>01.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterSelect.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Level2.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Level3.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainTitle.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningBlizzard.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="OpeningDiablo.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Chest.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03.Actor\03.02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>03.Actor\03.02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Values.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MyClientUpdater.cpp">
+      <Filter>01.Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Blizzard.cpp">
+      <Filter>03.Actor\03.03.TitleImage</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPlayerScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BlizzardTitle.cpp">
+      <Filter>03.Actor\03.05.Title</Filter>
+    </ClCompile>
+    <ClCompile Include="DiabloTitle.cpp">
+      <Filter>03.Actor\03.05.Title</Filter>
+    </ClCompile>
+    <ClCompile Include="DibRoom.cpp">
+      <Filter>04.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FogRenderer.cpp">
+      <Filter>03.Actor\03.04.Tile\03.04.01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderMap.cpp">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DibTile.cpp">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomMap.cpp">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClCompile>
+    <ClCompile Include="TileColRenderer.cpp">
+      <Filter>03.Actor\03.04.Tile\03.04.01.Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon2.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="InvenBackRenderer.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelRenderer.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTester.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StatRenderer.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Butcher.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bat.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Fallen.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Fallen2.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="GoatMan.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Scavenger.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton2.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Zombie.cpp">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="FontRenderer.cpp" />
+    <ClCompile Include="YFontRenderer.cpp" />
+    <ClCompile Include="Dungeon15.cpp" />
+    <ClCompile Include="Dungeon18.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bullet.h">
+      <Filter>03.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>01.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningDiablo.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSelect.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Level2.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Level3.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainTitle.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="OpeningBlizzard.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Chest.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03.Actor\03.02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>03.Actor\03.02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="MyClientUpdater.h">
+      <Filter>01.Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Blizzard.h">
+      <Filter>03.Actor\03.03.TitleImage</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPlayerScene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BlizzardTitle.h">
+      <Filter>03.Actor\03.05.Title</Filter>
+    </ClInclude>
+    <ClInclude Include="DiabloTitle.h">
+      <Filter>03.Actor\03.05.Title</Filter>
+    </ClInclude>
+    <ClInclude Include="DibRoom.h">
+      <Filter>04.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="FogRenderer.h">
+      <Filter>03.Actor\03.04.Tile\03.04.01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderMap.h">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="DibTile.h">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomMap.h">
+      <Filter>03.Actor\03.04.Tile\03.04.02.Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TileColRenderer.h">
+      <Filter>03.Actor\03.04.Tile\03.04.01.Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon2.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="InvenBackRenderer.h">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelRenderer.h">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTester.h">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StatRenderer.h">
+      <Filter>03.Actor\03.01.Character\03.01.03.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Butcher.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bat.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallen.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Fallen2.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="GoatMan.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Scavenger.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton2.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Zombie.h">
+      <Filter>03.Actor\03.01.Character\03.01.02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="FontRenderer.h" />
+    <ClInclude Include="YFontRenderer.h" />
+    <ClInclude Include="Dungeon15.h" />
+    <ClInclude Include="Dungeon18.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01.Main">
+      <UniqueIdentifier>{8f681bda-69f0-49ae-bf73-708e2d128a54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{92ea30ed-6be4-452b-9c36-814ea2bdc0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor">
+      <UniqueIdentifier>{5e89db3a-5c55-4036-9858-5fc4f0e9dd44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Map">
+      <UniqueIdentifier>{0ca4575b-73bc-43e4-b4b6-30d071953ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.01.Character">
+      <UniqueIdentifier>{49bd200e-772e-440f-945c-909e6c948c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.02.Item">
+      <UniqueIdentifier>{8190f7a5-7a1f-44f0-9b5c-47aa4439ed09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.03.TitleImage">
+      <UniqueIdentifier>{035424d5-9021-447e-a248-408ea018e640}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.04.Tile">
+      <UniqueIdentifier>{566e912e-14af-49be-8af6-41b656a9d952}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.05.Title">
+      <UniqueIdentifier>{074fd076-dfa7-4e63-a3fc-a7ab08254172}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.01.Character\03.01.02.Monster">
+      <UniqueIdentifier>{e72bbfc7-e90f-419b-aa1f-d0cce18c143a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.04.Tile\03.04.01.Renderer">
+      <UniqueIdentifier>{24378de2-8817-4283-83b8-929dc780d859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.04.Tile\03.04.02.Map">
+      <UniqueIdentifier>{2dd5d5de-c14c-40ac-8e54-4340c9668085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Actor\03.01.Character\03.01.03.Player">
+      <UniqueIdentifier>{d0defc8d-cc27-413e-b29b-dba0e27a9100}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

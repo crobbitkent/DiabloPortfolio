@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="MyWindowClass.h">
+      <Filter>01.Window</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameDebug.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGraphic.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInput.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMacro.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDirectory.h">
+      <Filter>03.File</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFile.h">
+      <Filter>03.File</Filter>
+    </ClInclude>
+    <ClInclude Include="PathManager.h">
+      <Filter>03.File</Filter>
+    </ClInclude>
+    <ClInclude Include="MyScene.h">
+      <Filter>04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyActor.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyCollider.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyRenderer.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MySubActor.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTextureManager.h">
+      <Filter>06.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTexture.h">
+      <Filter>06.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MyImage.h">
+      <Filter>06.Image</Filter>
+    </ClInclude>
+    <ClInclude Include="MyPath.h">
+      <Filter>03.File</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumber.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBaseUpdater.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFinding.h">
+      <Filter>07.A%2a</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAnimationRenderer.h">
+      <Filter>05.Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGameSound.h">
+      <Filter>02.Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyWindowClass.cpp">
+      <Filter>01.Window</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGameDebug.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGraphic.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInput.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMath.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDirectory.cpp">
+      <Filter>03.File</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFile.cpp">
+      <Filter>03.File</Filter>
+    </ClCompile>
+    <ClCompile Include="PathManager.cpp">
+      <Filter>03.File</Filter>
+    </ClCompile>
+    <ClCompile Include="MyScene.cpp">
+      <Filter>04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyActor.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCollider.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyRenderer.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MySubActor.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTextureManager.cpp">
+      <Filter>06.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTexture.cpp">
+      <Filter>06.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MyImage.cpp">
+      <Filter>06.Image</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPath.cpp">
+      <Filter>03.File</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumber.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBaseUpdater.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAnimationRenderer.cpp">
+      <Filter>05.Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGameSound.cpp">
+      <Filter>02.Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01.Window">
+      <UniqueIdentifier>{ea00385a-cfb7-4130-8ff2-9257e6b33318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Base">
+      <UniqueIdentifier>{170b5867-5d7a-4287-8471-cde5c97230ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.File">
+      <UniqueIdentifier>{c7ff9121-fb28-4b5c-9c60-2be847f79ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Scene">
+      <UniqueIdentifier>{10ea935e-78e2-47c8-baf1-6ac29979ce71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Actor">
+      <UniqueIdentifier>{d649bd83-47fd-492f-9835-90a4bcdd3575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Image">
+      <UniqueIdentifier>{ac9d9aca-e622-4b9f-b9ba-3a1654f23042}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="07.A%2a">
+      <UniqueIdentifier>{788cdf3f-bb0f-4165-bf64-b155e914de0c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
